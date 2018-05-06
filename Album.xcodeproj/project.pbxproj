@@ -12,6 +12,9 @@
 		232F0B692074A0E600A9813E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232F0B672074A0E600A9813E /* Main.storyboard */; };
 		232F0B6B2074A0E800A9813E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232F0B6A2074A0E800A9813E /* Assets.xcassets */; };
 		232F0B6E2074A0E800A9813E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232F0B6C2074A0E800A9813E /* LaunchScreen.storyboard */; };
+		232F0B762074A89800A9813E /* DongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F0B752074A89800A9813E /* DongTableViewCell.swift */; };
+		2335933020839414008D996A /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335932F20839414008D996A /* ShowViewController.swift */; };
+		2335933220839F70008D996A /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335933120839F70008D996A /* Phone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		232F0B6A2074A0E800A9813E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232F0B6D2074A0E800A9813E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		232F0B6F2074A0E800A9813E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232F0B752074A89800A9813E /* DongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongTableViewCell.swift; sourceTree = "<group>"; };
+		2335932F20839414008D996A /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		2335933120839F70008D996A /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				232F0B6A2074A0E800A9813E /* Assets.xcassets */,
 				232F0B6C2074A0E800A9813E /* LaunchScreen.storyboard */,
 				232F0B6F2074A0E800A9813E /* Info.plist */,
+				232F0B752074A89800A9813E /* DongTableViewCell.swift */,
+				2335932F20839414008D996A /* ShowViewController.swift */,
+				2335933120839F70008D996A /* Phone.swift */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2335933220839F70008D996A /* Phone.swift in Sources */,
 				232F0B662074A0E600A9813E /* ViewController.swift in Sources */,
+				232F0B762074A89800A9813E /* DongTableViewCell.swift in Sources */,
 				232F0B642074A0E600A9813E /* AppDelegate.swift in Sources */,
+				2335933020839414008D996A /* ShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MHY5H7DURP;
 				INFOPLIST_FILE = Album/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MHY5H7DURP;
 				INFOPLIST_FILE = Album/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
